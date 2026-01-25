@@ -4,6 +4,11 @@ import os
 from google_search_rss import fetch_google_news
 from naver_search_rss import fetch_naver_news
 
+fileNameMap = {
+    "테슬라": "tesla",
+    "싸이클": "cyclone",
+    "등산": "hiking",
+}
 
 def main():
     keyword = "테슬라"
@@ -16,7 +21,7 @@ def main():
         print("No news found or error occurred.")
         return
 
-    out_path = os.path.join("json", f"{keyword}_news.json")
+    out_path = os.path.join("json", f"{fileNameMap[keyword]}_news.json")
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
 
     with open(out_path, "w", encoding="utf-8") as f:

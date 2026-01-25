@@ -1,5 +1,13 @@
 [
   {
+    "source": "news2day",
+    "title": "[전기차 전환을 넘어 모빌리티 혁명으로 (3)] 테슬라의 옵티머스는 ‘비...",
+    "link": "https://www.news2day.co.kr/article/20260123500328",
+    "thumbnail": "https://cdn.news2day.co.kr/data2/content/image/2026/01/23/.cache/512/20260123500329.jpg",
+    "description": "관건 테슬라와 현대자동차의 보스턴 다이내믹스를 중심으로 한 휴머노이드 로봇 경쟁이 2025년 말부터 본격화되고 있다. 테슬라 옵티머스의 의욕적 공장 배치 및 대량 생산 페이스는 기술적이고 엔지니어링적인 여러... ",
+    "published_at": "2026-01-26T00:32:00+09:00"
+  },
+  {
     "source": "글로벌이코노믹",
     "title": "미국 연준 FOMC 금리인하 전면 수정... 뉴욕증시 비트코인 \"이란 사태 충...",
     "link": "https://www.g-enews.com/view.php?ud=202601152006275515906806b77b_1",
@@ -152,14 +160,6 @@
     "published_at": "2026-01-25T18:30:00+09:00"
   },
   {
-    "source": "서울경제",
-    "title": "“나만 벼락거지 될라”…증시 대기자금 100조 육박",
-    "link": "https://n.news.naver.com/mnews/article/011/0004582724?sid=101",
-    "thumbnail": "https://imgnews.pstatic.net/image/011/2026/01/25/0004582724_001_20260125193258469.jpg?type=w800",
-    "description": "테슬라(4억 7000만 달러·6839억 원)와 테슬라 주가 수익률의 2배를 추종하는 ‘디렉시온 데일리 테슬라 불 2X(TSLL)’(3억 3000만 달러·4802억 원), 마이크론(2억 7000만 달러·3929억 원) 등이 뒤를 이었다.",
-    "published_at": "2026-01-25T18:24:00+09:00"
-  },
-  {
     "source": "Benzinga",
     "title": "주간 모빌리티 뉴스: 테슬라 FSD 가격 인상, GM 생산 전환, 보잉 계약 급증 등",
     "link": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxQUlZjUUFrZU1pU3c0RjlFYkNmLUplYXZ1dUFHemdfcUctTGZ4WVFtNUhzWG5vaGx2M0lpU25IanVZa2h0Zjl5MEM4YV9veWcxTGY3ZTBsR1BTRkxrbjRJS0FMN0VuY094Q1JlSVo0Z2Y2dUFXenFDNV96Y3gtaURGWlEySkx0SVg1TE1OSWc0VkVaV3d3OEhZX0MtSk1jLVJxSlRQOVcyWkQzeUcteHE0ekxQWlhfenREbHRrSVFMNmFpZXdZZGh5am5KZUZ4VlhKS2g1UGhQNkRma3hyOUVxT3BzVUtGeGhJNlVPeE5BellSOEl1UU9xRjd4LTNTQW5xZjd0c0Z3MF9mTlFINGJHVDljX2M5aFY1OXZFa3ROMGYtOThQdUMyUGpwNV9fZk51eXQtS21lVFNqN3NlQnlER1NpdE91MlQtM2d2YVdWODZsRzdGRk50T1Ryb1FnUE0?oc=5",
@@ -174,6 +174,14 @@
     "thumbnail": "",
     "description": "“애플 버리고 엔비디아·테슬라로”···개미 투자자들, AI 랠리에 ‘폭풍 매수’&nbsp;&nbsp;Benzinga",
     "published_at": "2026-01-25T13:30:00+00:00"
+  },
+  {
+    "source": "한겨레",
+    "title": "북미판 테슬라 오토파일럿 기본 제공 중단…월 14만원 FSD 구독료 내야",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA0SFF2UEx1MUJWa2xtYndSY1pJUDZuM1BRUGRhcnlXNXQ0ckVUalNtVDdNS3hWZExuVkdBNmhGclRBb3dZbVZuMTVkbDlLNklaNk8zVDV6Zm5xQkNHNUt4UXN3?oc=5",
+    "thumbnail": "",
+    "description": "북미판 테슬라 오토파일럿 기본 제공 중단…월 14만원 FSD 구독료 내야&nbsp;&nbsp;한겨레",
+    "published_at": "2026-01-25T13:15:00+00:00"
   },
   {
     "source": "에너지신문",
@@ -304,19 +312,11 @@
     "published_at": "2026-01-24T22:59:33+00:00"
   },
   {
-    "source": "YTN",
-    "title": "테슬라에 국산 차 ’맞불’...불붙은 전기차 가격 전쟁",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9CcVkzUU1OLU1HOTluMndEOUFLNlNKTHFaMFNkcDd0S0lxYUhCX21RaURNeVBTaEV6ZkEwY2pST0xTNFBTcUxlZUVEeWZtc2hOQnV0YlltVzF3MHdpWGfSAYMBQVVfeXFMTjZ4QllTZi1JcDhqclRTWV9xWkt1NXY4enVmQXM2TE1YM2ctX1FQMUdmbEE0Tkh6Y2puUTRwUUNxLUM0aW1pajRfUUEyeHFjb0swQ1BnLUZaUGlQa1lZVmhxRklNelI5M1E5N2JZa1FsUlVFQXljVWVxN3JUTUE1VlZzcDg?oc=5",
+    "source": "비즈니스포스트",
+    "title": "엔비디아 자율주행 진출로 테슬라 견제, 자율주행 소프트웨어 외부 판매 전략 불리해져",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9kMXNFMU40WHExa2w1czhjaGtsc19UTjFhWlkxYjVKQzdVZndwTWpDb1M5b01kd2tFeV92ZjloYzJidHhpamdBOWZ0SEhPMTY0ZEktUlZVc2FTUmNXSWpmOUp3UlhQa012ckRrdG1fSi1yaFE?oc=5",
     "thumbnail": "",
-    "description": "테슬라에 국산 차 ’맞불’...불붙은 전기차 가격 전쟁&nbsp;&nbsp;YTN",
-    "published_at": "2026-01-24T20:10:00+00:00"
-  },
-  {
-    "source": "글로벌이코노믹",
-    "title": "테슬라, 美 오스틴 공장서 휴머노이드 로봇 ‘옵티머스’ 훈련 본격화",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQd28zTHFERjc1Y083ODhldG5lUVVyRDhMWUU3dmVCVHFCQXNtQVhHektJY1dBd0xtc1dDUTlXZ2plRkFTQTMwV0JuOENhdW1MdTVPX2J0Mmp2cVJmR0d2bDlLNGtza2RXSlBBY0hOdTdyTi1nLW9PMmlhend5ZEFqTGptemZqTjFN?oc=5",
-    "thumbnail": "",
-    "description": "테슬라, 美 오스틴 공장서 휴머노이드 로봇 ‘옵티머스’ 훈련 본격화&nbsp;&nbsp;글로벌이코노믹",
-    "published_at": "2026-01-24T18:00:00+00:00"
+    "description": "엔비디아 자율주행 진출로 테슬라 견제, 자율주행 소프트웨어 외부 판매 전략 불리해져&nbsp;&nbsp;비즈니스포스트",
+    "published_at": "2026-01-24T21:00:00+00:00"
   }
 ]

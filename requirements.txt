@@ -1,0 +1,7 @@
+﻿feedparser
+python-dateutil
+requests
+python-dotenv
+google-generativeai
+tldextract
+beautifulsoup4
