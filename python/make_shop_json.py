@@ -56,21 +56,19 @@ def fetch_gsheet_as_json(sheet_url):
     return data
 
 def main():
+    keyword = "tesla"
     test_url = "https://docs.google.com/spreadsheets/d/1Zocy2KfOAA0UlPmCmci0SIq-cKGf8mXGBpHhKa5UWRA/edit?gid=0#gid=0"
     
     try:
         print(f"Goal: Fetch data from Google Sheet and convert to JSON")
         json_data = fetch_gsheet_as_json(test_url)
         
-        # Output as JSON string
-        json_output = json.dumps(json_data, ensure_ascii=False, indent=2)
-        print(f"\nSuccessfully converted {len(json_data)} rows.")
-        
         # Optionally save to file
-        output_file = "gsheet_data.json"
-        with open(output_file, "w", encoding="utf-8") as f:
-            f.write(json_output)
-        print(f"Results saved to {output_file}")
+        out_path = os.path.join("json", f"{fileNameMap[keyword]}_shop.json")
+        os.makedirs(os.path.dirname(out_path), exist_ok=True)
+
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump(json_data, f, ensure_ascii=False, indent=2)
         
         # Print a snippet
         if json_data:

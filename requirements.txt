@@ -5,3 +5,5 @@ python-dotenv
 google-generativeai
 tldextract
 beautifulsoup4
+gspread
+google-auth
