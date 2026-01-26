@@ -72,9 +72,9 @@
 					
 					<td>*일반: 출고등록순<br>*우선: 출고등록순</td>
 					<td>10500<br> (1600)<br> (0)<br> (840)<br> (8060)</td>
+					<td>544<br> (163)<br> (20)<br> (0)<br> (361)</td>
 					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
-					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
-					<td style="text-align:center;">0<br> (0)<br> (0)<br> (0)<br> (0)</td>
+					<td style="text-align:center;">10500<br> (1600)<br> (0)<br> (840)<br> (8060)</td>
 					
 						<td>ㅇ 상반기 보급대수 : 승용 10,500대(일반 8,900대, 우선순위 1,600대)
 <br>    ※ 연간 총 보급대수 : 승용차 15,094대, 화물차 1,779대, 승합 76대 (총 16,949대)
@@ -166,7 +166,7 @@
 					
 						<td style="border-right: 1px solid #ddd;">인천광역시</td>
 					
-					<td></td>
+					<td>전기승용</td>
 					
 						<td>
 							
@@ -183,13 +183,21 @@
 							
 						</td>
 					
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td style="text-align:center;"></td>
+					<td>*일반: 출고등록순<br>*우선: 출고등록순</td>
+					<td>6160<br> (880)<br> (0)<br> (440)<br> (4840)</td>
+					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
+					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
+					<td style="text-align:center;">0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					
-						<td></td>
+						<td>2026년 전기자동차 민간보급사업과 관련하여 안내드립니다
+<br>
+<br>2026년 전기승용차 보급대수 : 8,800대
+<br>  - 1차 상반기 6,160대(70%)
+<br>  - 2차 하반기 2,640대(30%)
+<br>
+<br>- 신청접수는 1. 29.(목) 또는 1. 30.(금) 09:00부터 실시할 예정입니다
+<br>- 정확한 날짜는 공고 올릴때 다시 공지하도록 하겠습니다
+<br>- 공고는 접수 시작일 기준 1~2일 전에 올리도록 하겠습니다.</td>
 					
 				</tr>
 				
@@ -277,11 +285,17 @@
 					
 						<td style="border-right: 1px solid #ddd;">울산광역시</td>
 					
-					<td></td>
+					<td>전기승용</td>
 					
 						<td>
 							
+								<button type="button" onclick="goDownloadFile('2026','3100', 'A');return false;" class="btnDown">본공고 1</button><br>
 							
+							
+								<button type="button" onclick="goDownloadFile('2026','3100', 'A02');return false;" class="btnDown">본공고 2</button><br>
+							
+							
+								<button type="button" onclick="goDownloadFile('2026','3100', 'A03');return false;" class="btnDown">본공고 3</button><br>
 							
 							
 							
@@ -294,13 +308,22 @@
 							
 						</td>
 					
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td style="text-align:center;"></td>
+					<td>*일반: 출고등록순<br>*우선: 출고등록순</td>
+					<td>1736<br> (0)<br> (0)<br> (0)<br> (1736)</td>
+					<td>24<br> (7)<br> (0)<br> (1)<br> (16)</td>
+					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
+					<td style="text-align:center;">1736<br> (0)<br> (0)<br> (0)<br> (1736)</td>
 					
-						<td></td>
+						<td>&lt;2026년 상반기 전기자동차(승용) 보급사업 안내&gt; 
+<br>○ 접수기간 : 2026. 1. 26.(월) 09:00 ~ 6. 30.(화) 예산소진시 조기마감
+<br>○ 보급대수 : 1,736대   * 예산 범위 내에서 변동 될 수 있음
+<br>    ( 총보급대수 2,480대 / 상반기 1,736대, 하반기 744대)
+<br> * 기타 자세한 내용 공고문 참조
+<br> * 지원(지급)신청서 등 모든파일은 1개의 PDF파일로 저장하여 업로드
+<br> * (전환지원금)지급 신청 전까지 서류 첨부하시면 됩니다. 대리점에서는 전환지원금 Y로 선택해주세요(매도, 폐차 모두)
+<br>   -전환지원금은 "개인만"가능합니다. (개인사업자, 법인 불가)
+<br>※ 본공고1 : 공고문, 본공고2 : 차종별 국시비 보조금, 본공고3 : 별지서식
+<br>※ 빠른 처리를 위해 가능한 전화문의 자제 부탁드립니다.</td>
 					
 				</tr>
 				
@@ -573,7 +596,7 @@
 					
 						<td style="border-right: 1px solid #ddd;">평택시</td>
 					
-					<td></td>
+					<td>전기승용</td>
 					
 						<td>
 							
@@ -590,11 +613,11 @@
 							
 						</td>
 					
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td style="text-align:center;"></td>
+					<td>*일반: 출고등록순<br>*우선: 출고등록순</td>
+					<td>1000<br> (0)<br> (0)<br> (0)<br> (1000)</td>
+					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
+					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
+					<td style="text-align:center;">0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					
 						<td></td>
 					
@@ -795,9 +818,11 @@
 					
 						<td style="border-right: 1px solid #ddd;">남양주시</td>
 					
-					<td></td>
+					<td>전기승용</td>
 					
 						<td>
+							
+								<button type="button" onclick="goDownloadFile('2026','4136', 'A');return false;" class="btnDown">본공고 1</button><br>
 							
 							
 							
@@ -812,13 +837,18 @@
 							
 						</td>
 					
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td style="text-align:center;"></td>
+					<td>*일반: 접수순(초과시 출고등록순)<br>*우선: 접수순(초과시 출고등록순)</td>
+					<td>1000<br> (0)<br> (0)<br> (0)<br> (1000)</td>
+					<td>87<br> (28)<br> (0)<br> (4)<br> (55)</td>
+					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
+					<td style="text-align:center;">1000<br> (0)<br> (0)<br> (0)<br> (1000)</td>
 					
-						<td></td>
+						<td>-  보급대수 : 상반기 1,214대 (승용 1,000대 / 화물 200대 / 버스(일반) 14대)
+<br>  ※ 차종별 보조금 변경 및 보급물량은 예산범위 내에서 변동될 수 있음
+<br>  ※ 어린이 통학버스는 5월 중 공고 예정
+<br>-  사업기간 : 2026.01.26.(월) 09:00 ~ 2026.06.30.(화) 18:00
+<br>
+<br>@ 전화량이 많아 연결이 어려울 수 있습니다. @@</td>
 					
 				</tr>
 				
@@ -1061,6 +1091,8 @@
 								<button type="button" onclick="goDownloadFile('2026','4148', 'A');return false;" class="btnDown">본공고 1</button><br>
 							
 							
+								<button type="button" onclick="goDownloadFile('2026','4148', 'A02');return false;" class="btnDown">본공고 2</button><br>
+							
 							
 							
 							
@@ -1090,7 +1122,9 @@
 <br>
 <br>* 차종별 보조금 확인방법
 <br>무공해차 통합누리집 &gt; 구매 및 지원 &gt; 구매보조금 지급현황 &gt; 지자체 차종별보조금
-<br>※ 자세한 내용은 공고문을 참고하시기 바랍니다.</td>
+<br>※ 자세한 내용은 공고문을 참고하시기 바랍니다.
+<br>
+<br>[전화문의가 너무 많아 업무처리가 어렵습니다. 되도록이면 공고문을 참고해주시기 바랍니다.]</td>
 					
 				</tr>
 				
@@ -1421,7 +1455,7 @@
 					
 					<td>*일반: 출고등록순<br>*우선: 출고등록순</td>
 					<td>55<br> (0)<br> (0)<br> (0)<br> (55)</td>
-					<td>31<br> (7)<br> (2)<br> (2)<br> (20)</td>
+					<td>35<br> (8)<br> (2)<br> (4)<br> (21)</td>
 					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					<td style="text-align:center;">55<br> (0)<br> (0)<br> (0)<br> (55)</td>
 					
@@ -2244,7 +2278,7 @@
 					
 					<td>*일반: 출고등록순<br>*우선: 출고등록순</td>
 					<td>1019<br> (120)<br> (0)<br> (60)<br> (839)</td>
-					<td>260<br> (79)<br> (3)<br> (9)<br> (169)</td>
+					<td>278<br> (87)<br> (3)<br> (9)<br> (179)</td>
 					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					<td style="text-align:center;">1019<br> (120)<br> (0)<br> (60)<br> (839)</td>
 					
@@ -2292,7 +2326,7 @@
 					
 					<td>*일반: 출고등록순<br>*우선: 출고등록순</td>
 					<td>800<br> (80)<br> (0)<br> (40)<br> (680)</td>
-					<td>175<br> (39)<br> (2)<br> (11)<br> (123)</td>
+					<td>196<br> (51)<br> (3)<br> (11)<br> (131)</td>
 					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					<td style="text-align:center;">800<br> (80)<br> (0)<br> (40)<br> (680)</td>
 					
@@ -2502,7 +2536,7 @@
 					
 					<td>*일반: 출고등록순<br>*우선: 출고등록순</td>
 					<td>800<br> (100)<br> (0)<br> (30)<br> (670)</td>
-					<td>91<br> (19)<br> (2)<br> (2)<br> (68)</td>
+					<td>102<br> (22)<br> (2)<br> (2)<br> (76)</td>
 					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					<td style="text-align:center;">800<br> (100)<br> (0)<br> (30)<br> (670)</td>
 					
@@ -2554,9 +2588,9 @@
 					
 					<td>*일반: 출고등록순<br>*우선: 출고등록순</td>
 					<td>100<br> (10)<br> (0)<br> (5)<br> (85)</td>
+					<td>15<br> (2)<br> (0)<br> (0)<br> (13)</td>
 					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
-					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
-					<td style="text-align:center;">0<br> (0)<br> (0)<br> (0)<br> (0)</td>
+					<td style="text-align:center;">100<br> (10)<br> (0)<br> (5)<br> (85)</td>
 					
 						<td>&lt;2026년 상반기 괴산군 전기자동차 보급사업&gt;
 <br>★ 접수기간: 2026. 1. 26.(월) 09:00 ~ 6. 30.(화) 18:00
@@ -2636,9 +2670,9 @@
 					
 					<td>*일반: 출고등록순<br>*우선: 출고등록순</td>
 					<td>120<br> (15)<br> (0)<br> (3)<br> (102)</td>
+					<td>14<br> (3)<br> (1)<br> (0)<br> (10)</td>
 					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
-					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
-					<td style="text-align:center;">0<br> (0)<br> (0)<br> (0)<br> (0)</td>
+					<td style="text-align:center;">120<br> (15)<br> (0)<br> (3)<br> (102)</td>
 					
 						<td>&lt;2026년 단양군 전기자동차 보급사업&gt;
 <br>○ 신청기간 : 2026. 1. 26.(월) ~ 6. 30.(화) ※ 예산 소진 시 마감
@@ -2655,7 +2689,8 @@
 <br>- 전환지원금은 "개인"만 해당됨 (개인사업자,법인 등 지급 불가)
 <br>- 생애최소 구입 신청 시 지방세 세목별 과세증명서(자동차 취등록세, 자동차세 부과이력) 지역 전국, 과세년도는 현재까지로 기준 설정하여 제출 요청
 <br>- 보조금 신청서 오기재 및 서류미비 사항으로 인한 책임은 신청자에게 있습니다.(보완사항은 보완 완료 시간으로 접수된것으로 간주)
-<br>- 구매보조금 지급신청 후, 단양군청 환경과로 원본제출(사본은 원본대조필 날인) &lt;충북 단양군 단양읍 중앙1로 10, 단양군청 환경과(전기차보조금 담당자)&gt;</td>
+<br>- 구매보조금 지급신청 후, 단양군청 환경과로 원본제출(사본은 원본대조필 날인) &lt;충북 단양군 단양읍 중앙1로 10, 단양군청 환경과(전기차보조금 담당자)&gt;
+<br>※ 전화 폭주로 공고문 우선 확인 요청드립니다.</td>
 					
 				</tr>
 				
@@ -3974,6 +4009,8 @@
 								<button type="button" onclick="goDownloadFile('2026','4672', 'A02');return false;" class="btnDown">본공고 2</button><br>
 							
 							
+								<button type="button" onclick="goDownloadFile('2026','4672', 'A03');return false;" class="btnDown">본공고 3</button><br>
+							
 							
 							
 							
@@ -3987,7 +4024,7 @@
 					
 					<td>*일반: 출고등록순<br>*우선: 출고등록순</td>
 					<td>70<br> (0)<br> (0)<br> (0)<br> (70)</td>
-					<td>34<br> (12)<br> (1)<br> (0)<br> (21)</td>
+					<td>38<br> (12)<br> (1)<br> (0)<br> (25)</td>
 					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					<td style="text-align:center;">70<br> (0)<br> (0)<br> (0)<br> (70)</td>
 					
@@ -4367,7 +4404,7 @@
 						</td>
 					
 					<td></td>
-					<td>158<br> (16)<br> (127)<br> (15)<br> (0)</td>
+					<td>158<br> (16)<br> (0)<br> (15)<br> (127)</td>
 					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					<td style="text-align:center;">0<br> (0)<br> (0)<br> (0)<br> (0)</td>
@@ -5394,9 +5431,11 @@
 					
 						<td style="border-right: 1px solid #ddd;">창원시</td>
 					
-					<td></td>
+					<td>전기승용</td>
 					
 						<td>
+							
+								<button type="button" onclick="goDownloadFile('2026','4812', 'A');return false;" class="btnDown">본공고 1</button><br>
 							
 							
 							
@@ -5412,10 +5451,10 @@
 						</td>
 					
 					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td style="text-align:center;"></td>
+					<td>1400<br> (140)<br> (0)<br> (70)<br> (1190)</td>
+					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
+					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
+					<td style="text-align:center;">0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					
 						<td></td>
 					
@@ -5546,6 +5585,10 @@
 					
 						<td>
 							
+								<button type="button" onclick="goDownloadFile('2026','4825', 'A');return false;" class="btnDown">본공고 1</button><br>
+							
+							
+								<button type="button" onclick="goDownloadFile('2026','4825', 'A02');return false;" class="btnDown">본공고 2</button><br>
 							
 							
 							
@@ -5614,20 +5657,8 @@
 					<td style="text-align:center;">0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					
 						<td>★안내★
-<br>① 지원신청 및 지급신청 시 반드시 공고문에 포함되어 있는 서식을 참고하시어 모든 서류 일괄 스캔하여 첨부 바랍니다.
-<br>② 2026. 7. 1.(수) 밀양시 전기자동차 보급사업 하반기 공고 게시합니다.
-<br>   ※ 하반기부터 우선순위 배정물량이 일반물량과 통합됨
-<br>③ 잔량은 매일 오전 업데이트하여 해당 란에 안내할 예정이므로, 원활한 업무처리를 위해 전화문의는 삼가주시길 바랍니다.★
-<br>
-<br>★문의가 많아 신청기간을 올려놓았습니다. 공고는 1월 말에 올라갈 예정입니다.
-<br>   최대한 빨리 공고를 올려드리려고 노력중에 있으니 전화 문의는 삼가해주시기 바랍니다.
-<br>&lt;2026년도 상반기 전기자동차(승용, 화물) 보급사업 공고&gt;
-<br>1. 신청기간: 2026. 2. 2.(월) ~ 예산 소진 시까지  (공고는 1월 말 예정) 
-<br>2. 사업량: 승용 350대 (전체 물량의 70%)
-<br>※ 보급대수는 예산편성 단가기준 수량이며, 신청 차종에 따라 보조금이 상이하므로 실제 물량은 공고 물량과 다를 수 있음.
-<br>3. 선정기준: 차량 출고등록순 
-<br>4. 차종별 지원금액: 무공해차 통합관리시스템 &gt; 구매보조금 지급현황 &gt; 차종별 보조금&gt; 밀양시 조회
-<br>※ 작년 대비 지침변경사항이 있으니, 반드시 공고문을 확인하시기 바랍니다.</td>
+<br>문의가 많아 보급대수는 올려놓았습니다. 공고는 1월 말에서 2월 초에 올라갈 예정입니다.
+<br>최대한 빨리 공고를 올려드리려고 노력중에 있으니 전화 문의는 삼가해주시기 바랍니다.</td>
 					
 				</tr>
 				
@@ -5641,7 +5672,7 @@
 					
 						<td style="border-right: 1px solid #ddd;">거제시</td>
 					
-					<td></td>
+					<td>전기승용</td>
 					
 						<td>
 							
@@ -5659,10 +5690,10 @@
 						</td>
 					
 					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td style="text-align:center;"></td>
+					<td>1050<br> (105)<br> (0)<br> (53)<br> (892)</td>
+					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
+					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
+					<td style="text-align:center;">0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					
 						<td></td>
 					
@@ -6151,7 +6182,7 @@
 					
 					<td>*일반: 출고등록순<br>*우선: -</td>
 					<td>30000<br> (0)<br> (0)<br> (0)<br> (30000)</td>
-					<td>328<br> (1)<br> (321)<br> (2)<br> (4)</td>
+					<td>391<br> (1)<br> (382)<br> (3)<br> (5)</td>
 					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					<td style="text-align:center;">30000<br> (0)<br> (0)<br> (0)<br> (30000)</td>
 					
