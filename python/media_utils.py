@@ -176,5 +176,4 @@ def get_media_name_from_domain(domain: str) -> str:
     if not domain:
         return "unknown"
     ext = tldextract.extract(domain)
-    print(ext)
     return DOMAIN_TO_MEDIA.get(ext.domain, ext.domain)

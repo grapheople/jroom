@@ -27,6 +27,8 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(news_results, f, ensure_ascii=False, indent=2)
 
+    print(f"Saved {len(news_results)} news to {out_path}")
+
 
 if __name__ == "__main__":
     main()

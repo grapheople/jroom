@@ -46,8 +46,6 @@ def fetch_google_news(query="테슬라", num=20):
         except Exception:
             continue
 
-        print(published_dt)
-
         if published_dt >= threshold:
             valid_entries.append((published_dt, entry))
 
