@@ -63,6 +63,6 @@ if __name__ == "__main__":
     keyword = "tesla"
     project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     input_file = os.path.join(project_root, "source", f"{keyword}_coupang.txt")
-    output_file = os.path.join(project_root, "json", f"{keyword}_products.json")
+    output_file = os.path.join(project_root, "json", f"{keyword}_products_parsing.json")
     
     parse_coupang_html(input_file, output_file)
