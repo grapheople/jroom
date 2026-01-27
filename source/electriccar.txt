@@ -72,7 +72,7 @@
 					
 					<td>*일반: 출고등록순<br>*우선: 출고등록순</td>
 					<td>10500<br> (1600)<br> (0)<br> (840)<br> (8060)</td>
-					<td>907<br> (306)<br> (27)<br> (0)<br> (574)</td>
+					<td>979<br> (334)<br> (29)<br> (0)<br> (616)</td>
 					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					<td style="text-align:center;">10500<br> (1600)<br> (0)<br> (840)<br> (8060)</td>
 					
@@ -310,7 +310,7 @@
 					
 					<td>*일반: 출고등록순<br>*우선: 출고등록순</td>
 					<td>1736<br> (0)<br> (0)<br> (0)<br> (1736)</td>
-					<td>78<br> (16)<br> (0)<br> (11)<br> (51)</td>
+					<td>85<br> (17)<br> (0)<br> (13)<br> (55)</td>
 					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					<td style="text-align:center;">1736<br> (0)<br> (0)<br> (0)<br> (1736)</td>
 					
@@ -844,7 +844,7 @@
 					
 					<td>*일반: 접수순(초과시 출고등록순)<br>*우선: 접수순(초과시 출고등록순)</td>
 					<td>1000<br> (0)<br> (0)<br> (0)<br> (1000)</td>
-					<td>119<br> (35)<br> (3)<br> (5)<br> (76)</td>
+					<td>126<br> (36)<br> (3)<br> (5)<br> (82)</td>
 					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					<td style="text-align:center;">1000<br> (0)<br> (0)<br> (0)<br> (1000)</td>
 					
@@ -853,7 +853,10 @@
 <br>  ※ 어린이 통학버스는 5월 중 공고 예정
 <br>-  사업기간 : 2026.01.26.(월) 09:00 ~ 2026.06.30.(화) 18:00
 <br>
-<br>@ 전화량이 많아 연결이 어려울 수 있습니다. @@</td>
+<br>※ 우리시는 전기자동차, 수소전기차, 전기이륜차, LPG차 등 자동차 보조금을
+<br>    담당자 1명이 전화부터 서류검토 및 보조금 지급까지 담당하고 있습니다.
+<br>    접수 개시에 따라 접수 및 전화량이 많아 처리가 계속 지연되오니, 
+<br>    자동차 보조금액 등 단순문의는 공고문을 꼭 확인하여주시기 바랍니다</td>
 					
 				</tr>
 				
@@ -1112,9 +1115,9 @@
 					
 					<td>*일반: 출고등록순<br>*우선: 출고등록순</td>
 					<td>1229<br> (120)<br> (0)<br> (60)<br> (1049)</td>
+					<td>41<br> (12)<br> (0)<br> (4)<br> (25)</td>
 					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
-					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
-					<td style="text-align:center;">0<br> (0)<br> (0)<br> (0)<br> (0)</td>
+					<td style="text-align:center;">1229<br> (120)<br> (0)<br> (60)<br> (1049)</td>
 					
 						<td>[2026년 상반기 파주시 전기차 보급사업]
 <br>
@@ -1424,9 +1427,9 @@
 					
 					<td>*일반: 접수순(초과시 추첨)<br>*우선: 접수순(초과시 추첨)</td>
 					<td>255<br> (25)<br> (0)<br> (5)<br> (225)</td>
+					<td>20<br> (6)<br> (0)<br> (3)<br> (11)</td>
 					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
-					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
-					<td style="text-align:center;">0<br> (0)<br> (0)<br> (0)<br> (0)</td>
+					<td style="text-align:center;">255<br> (25)<br> (0)<br> (5)<br> (225)</td>
 					
 						<td></td>
 					
@@ -1463,7 +1466,7 @@
 					
 					<td>*일반: 출고등록순<br>*우선: 출고등록순</td>
 					<td>55<br> (0)<br> (0)<br> (0)<br> (55)</td>
-					<td>38<br> (9)<br> (2)<br> (4)<br> (23)</td>
+					<td>39<br> (8)<br> (2)<br> (4)<br> (25)</td>
 					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					<td style="text-align:center;">55<br> (0)<br> (0)<br> (0)<br> (55)</td>
 					
@@ -1862,7 +1865,7 @@
 					
 						<td style="border-right: 1px solid #ddd;">횡성군</td>
 					
-					<td></td>
+					<td>전기승용</td>
 					
 						<td>
 							
@@ -1880,10 +1883,10 @@
 						</td>
 					
 					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td style="text-align:center;"></td>
+					<td>150<br> (0)<br> (0)<br> (0)<br> (150)</td>
+					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
+					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
+					<td style="text-align:center;">0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					
 						<td></td>
 					
@@ -2232,9 +2235,11 @@
 					
 						<td style="border-right: 1px solid #ddd;">청주시</td>
 					
-					<td></td>
+					<td>전기승용</td>
 					
 						<td>
+							
+								<button type="button" onclick="goDownloadFile('2026','4311', 'A');return false;" class="btnDown">본공고 1</button><br>
 							
 							
 							
@@ -2249,11 +2254,11 @@
 							
 						</td>
 					
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td style="text-align:center;"></td>
+					<td>*일반: 출고등록순<br>*우선: 출고등록순</td>
+					<td>2250<br> (225)<br> (0)<br> (225)<br> (1800)</td>
+					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
+					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
+					<td style="text-align:center;">0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					
 						<td></td>
 					
@@ -2292,7 +2297,7 @@
 					
 					<td>*일반: 출고등록순<br>*우선: 출고등록순</td>
 					<td>1199<br> (120)<br> (0)<br> (60)<br> (1019)</td>
-					<td>315<br> (106)<br> (4)<br> (9)<br> (196)</td>
+					<td>317<br> (108)<br> (4)<br> (9)<br> (196)</td>
 					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					<td style="text-align:center;">1199<br> (120)<br> (0)<br> (60)<br> (1019)</td>
 					
@@ -2340,7 +2345,7 @@
 					
 					<td>*일반: 출고등록순<br>*우선: 출고등록순</td>
 					<td>800<br> (80)<br> (0)<br> (40)<br> (680)</td>
-					<td>209<br> (58)<br> (3)<br> (12)<br> (136)</td>
+					<td>213<br> (61)<br> (3)<br> (12)<br> (137)</td>
 					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					<td style="text-align:center;">800<br> (80)<br> (0)<br> (40)<br> (680)</td>
 					
@@ -2552,7 +2557,7 @@
 					
 					<td>*일반: 출고등록순<br>*우선: 출고등록순</td>
 					<td>800<br> (100)<br> (0)<br> (30)<br> (670)</td>
-					<td>117<br> (27)<br> (2)<br> (2)<br> (86)</td>
+					<td>118<br> (27)<br> (2)<br> (2)<br> (87)</td>
 					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					<td style="text-align:center;">800<br> (100)<br> (0)<br> (30)<br> (670)</td>
 					
@@ -4042,7 +4047,7 @@
 					
 					<td>*일반: 출고등록순<br>*우선: 출고등록순</td>
 					<td>70<br> (0)<br> (0)<br> (0)<br> (70)</td>
-					<td>38<br> (12)<br> (1)<br> (0)<br> (25)</td>
+					<td>40<br> (13)<br> (1)<br> (0)<br> (26)</td>
 					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					<td style="text-align:center;">70<br> (0)<br> (0)<br> (0)<br> (70)</td>
 					
@@ -4805,7 +4810,7 @@
 					<td style="text-align:center;">0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					
 						<td>2026년 구미시 전기차 보급사업 관련 공지 
-<br>1월 말 공고 예정, 신청기간은 2026. 2. 4.(수) 10:00 ~ 6. 30.(화) 
+<br>1. 29.(목) 공고 예정, 신청기간 2026. 2. 4.(수) 10:00 ~ 6. 30.(화) 
 <br>* 예산소진시 접수마감 
 <br>* 원활하고 빠른 업무처리를 위해 단순 반복 문의는 삼가 부탁드립니다.</td>
 					
@@ -5327,9 +5332,9 @@
 					
 					<td>*일반: 출고등록순<br>*우선: 출고등록순</td>
 					<td>100<br> (10)<br> (0)<br> (5)<br> (85)</td>
+					<td>18<br> (1)<br> (0)<br> (0)<br> (17)</td>
 					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
-					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
-					<td style="text-align:center;">0<br> (0)<br> (0)<br> (0)<br> (0)</td>
+					<td style="text-align:center;">100<br> (10)<br> (0)<br> (5)<br> (85)</td>
 					
 						<td></td>
 					
@@ -6292,7 +6297,7 @@
 					
 					<td>*일반: 출고등록순<br>*우선: -</td>
 					<td>30000<br> (0)<br> (0)<br> (0)<br> (30000)</td>
-					<td>631<br> (1)<br> (619)<br> (3)<br> (8)</td>
+					<td>664<br> (1)<br> (652)<br> (3)<br> (8)</td>
 					<td>0<br> (0)<br> (0)<br> (0)<br> (0)</td>
 					<td style="text-align:center;">30000<br> (0)<br> (0)<br> (0)<br> (30000)</td>
 					
