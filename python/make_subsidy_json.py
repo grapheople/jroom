@@ -49,6 +49,8 @@ def parse_subsidy(html_content):
 
 if __name__ == "__main__":
     # tesla/electriccar.txt 파일에서 HTML 읽기
+    # https://ev.or.kr/nportal/buySupprt/initSubsidyPaymentCheckAction.do
+    # copy(document.getElementsByClassName('table01 ')[0].outerHTML)
     file_path = "source/electriccar.txt"
     
     if not os.path.exists(file_path):

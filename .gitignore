@@ -36,5 +36,6 @@ yarn-error.log*
 next-env.d.ts
 
 *.pyc
-/python/__pycache__
+__pycache__/
+
 googleApiKey*
