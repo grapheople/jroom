@@ -22,27 +22,49 @@ def load_worksheet(sheet_url, worksheet_index=0):
     return spreadsheet.get_worksheet(worksheet_index)
 
 
-def sheet_to_records(values):
-    if not values:
-        return []
+def sheet_to_records(sheet):
+    headers = sheet[0]
 
-    max_cols = max(len(row) for row in values)
-    records = []
+    # 유효한 헤더 컬럼만 유지
+    valid_cols = [
+        i for i, h in enumerate(headers)
+        if isinstance(h, str) and h.strip() != ""
+    ]
 
-    for col in range(1, max_cols):
-        record = {}
-        for row in values:
-            if not row:
+    # name 컬럼 인덱스 찾기
+    try:
+        required_idx = headers.index("name")
+    except ValueError:
+        raise ValueError(f"'name' 컬럼이 헤더에 없습니다")
+
+    result = []
+
+    for row in sheet[1:]:
+        # name 값이 없으면 행 전체 스킵
+        if required_idx >= len(row):
+            continue
+
+        name_val = row[required_idx]
+        if not isinstance(name_val, str) or name_val.strip() == "":
+            continue
+
+        obj = {}
+        for i in valid_cols:
+            if i >= len(row):
                 continue
-            key = row[0].strip() if len(row) > 0 else ""
-            if not key:
-                continue
-            value = row[col] if len(row) > col else ""
-            record[key] = value
-        if any(value != "" for value in record.values()):
-            records.append(record)
 
-    return records
+            val = row[i]
+            if val is None:
+                continue
+            if isinstance(val, str) and val.strip() == "":
+                continue
+
+            obj[headers[i]] = val
+
+        if obj:
+            result.append(obj)
+
+    return result
 
 
 def main():
@@ -61,7 +83,7 @@ def main():
     values = worksheet.get_all_values()
     records = sheet_to_records(values)
 
-    output_path = Path(__file__).resolve().parents[1] / "json" / "tesla_products_out.json"
+    output_path = Path(__file__).resolve().parents[1] / "json" / "tesla_products.json"
     output_path.write_text(
         json.dumps(records, ensure_ascii=False, indent=2),
         encoding="utf-8",
