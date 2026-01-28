@@ -82,6 +82,7 @@ def fetch_gsheet_as_json(sheet_url, sheet_name=None):
         if 'name' in clean_row and clean_row['name'].strip():
             data.append(clean_row)
     
+    data.sort(key=lambda x: x['order'], reverse=True)
     return data
 
 def make_shop_json():
@@ -109,11 +110,6 @@ def make_shop_json():
 
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(json_data, f, ensure_ascii=False, indent=2)
-        
-        # Print a snippet
-        if json_data:
-            print("\nFirst row preview:")
-            print(json.dumps(json_data[0], ensure_ascii=False, indent=2))
         
     except Exception as e:
         print(f"Error occurred: {e}")
