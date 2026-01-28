@@ -64,6 +64,7 @@ def sheet_to_records(sheet):
         if obj:
             result.append(obj)
 
+    result.sort(key=lambda x: x["order"], reverse=True)
     return result
 
 
