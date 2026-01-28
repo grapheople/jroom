@@ -28,20 +28,28 @@ def parse_subsidy(html_content):
         if len(tds) < 8:
             continue
 
+        print(tds)
+
         location_name1 = tds[0].get_text(strip=True)
         location_name2 = tds[1].get_text(strip=True)
         total_text = tds[5].get_text(" ", strip=True)
-        remain_text = tds[7].get_text(" ", strip=True)
+        recieved_text = tds[6].get_text(" ", strip=True)
+        release_text = tds[7].get_text(" ", strip=True)
+        remain_text = tds[8].get_text(" ", strip=True)
         etc_text = tds[9].get_text(" ", strip=True) if len(tds) >= 10 else ""
 
         total = _first_number(total_text) or 0
+        recieved = _first_number(recieved_text) or 0
+        release = _first_number(release_text) or 0
         remain = _first_number(remain_text) or 0
 
         subsidies.append({
             "locationName1": location_name1,
             "locationName2": location_name2,
             "totalCount": total,
-            "applyCount": remain,
+            "recievedCount": recieved,
+            "releaseCount": release,
+            "remainCount": remain,
             "etc": etc_text,
         })
 
