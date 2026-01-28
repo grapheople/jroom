@@ -1,4 +1,7 @@
 import asyncio
+import subprocess
+import os
+from datetime import datetime
 from make_news_json import make_news_json
 from make_shop_json import make_shop_json
 from make_subsidy_json import make_subsidy_json
@@ -9,6 +12,7 @@ async def main():
     - make_news_json: 뉴스 데이터 생성
     - make_shop_json: 쇼핑 데이터 생성
     - make_subsidy_json: 전기차 보조금 데이터 생성
+    - git add, commit, push 자동 실행
     """
     print("=" * 50)
     print("모든 JSON 파일 생성 시작")
@@ -41,6 +45,36 @@ async def main():
     print("\n" + "=" * 50)
     print("모든 JSON 파일 생성 완료")
     print("=" * 50)
+    
+    # 4. Git 커밋 및 푸시
+    print("\n[4/4] Git 커밋 및 푸시 중...")
+    try:
+        # 프로젝트 루트 디렉토리로 이동
+        project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+        os.chdir(project_root)
+        
+        # git add
+        subprocess.run(["git", "add", "json/"], check=True)
+        print("✓ git add 완료")
+        
+        # git commit
+        commit_message = f"Update JSON files - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+        subprocess.run(["git", "commit", "-m", commit_message], check=True)
+        print(f"✓ git commit 완료: {commit_message}")
+        
+        # git push
+        subprocess.run(["git", "push"], check=True)
+        print("✓ git push 완료")
+        
+        print("\n" + "=" * 50)
+        print("모든 작업 완료!")
+        print("=" * 50)
+        
+    except subprocess.CalledProcessError as e:
+        print(f"✗ Git 작업 실패: {e}")
+        print("(변경사항이 없거나 Git 설정을 확인해주세요)")
+    except Exception as e:
+        print(f"✗ Git 작업 중 오류 발생: {e}")
 
 if __name__ == "__main__":
     asyncio.run(main())
