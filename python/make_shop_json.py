@@ -3,18 +3,44 @@ import csv
 import json
 import io
 import urllib.parse
+import os
+import sys
 
-def fetch_gsheet_as_json(sheet_url):
+# Mapping of keywords to file names
+fileNameMap = {
+    "tesla": "tesla",
+    "electriccar": "electriccar",
+    "baby": "baby"
+}
+
+# Mapping of keywords to Google Sheet gid
+gidMap = {
+    "tesla": "0",
+    "baby": "1881135036"
+}
+
+def fetch_gsheet_as_json(sheet_url, sheet_name=None):
     """
     Fetches a Google Spreadsheet as CSV and converts it to a list of dictionaries.
     The first row of the sheet is used as field names.
+    
+    Args:
+        sheet_url: URL of the Google Sheet
+        sheet_name: Optional name of the sheet to select. If provided, will try to find
+                   the sheet with this name and use its gid.
     """
     # Parse the URL and remove fragment
     parsed_url = urllib.parse.urlparse(sheet_url)
     query = urllib.parse.parse_qs(parsed_url.query)
     
-    # Get gid if present
-    gid = query.get('gid', ['0'])[0]
+    # Get gid - use from map if sheet_name is provided, otherwise from URL
+    if sheet_name and sheet_name in gidMap:
+        gid = gidMap[sheet_name]
+        print(f"Using gid '{gid}' for sheet name '{sheet_name}'")
+    else:
+        gid = query.get('gid', ['0'])[0]
+        if sheet_name:
+            print(f"Warning: Sheet name '{sheet_name}' not found in gidMap. Using gid from URL or default.")
     
     # Construct export URL
     # Replace /edit... with /export
@@ -51,17 +77,31 @@ def fetch_gsheet_as_json(sheet_url):
     for row in reader:
         # Clean up keys and values if needed (e.g. stripping whitespace)
         clean_row = {k.strip(): v for k, v in row.items() if k is not None}
-        data.append(clean_row)
+        
+        # Skip rows where 'name' field is empty
+        if 'name' in clean_row and clean_row['name'].strip():
+            data.append(clean_row)
     
     return data
 
 def main():
-    keyword = "tesla"
+    # Get keyword from command line argument or use default
+    if len(sys.argv) > 1:
+        keyword = sys.argv[1]
+    else:
+        keyword = "tesla"
+        print(f"No keyword provided, using default: {keyword}")
+    
+    # Validate keyword
+    if keyword not in fileNameMap:
+        print(f"Error: Unknown keyword '{keyword}'. Available keywords: {list(fileNameMap.keys())}")
+        sys.exit(1)
+    
     test_url = "https://docs.google.com/spreadsheets/d/1Zocy2KfOAA0UlPmCmci0SIq-cKGf8mXGBpHhKa5UWRA/edit?gid=0#gid=0"
     
     try:
-        print(f"Goal: Fetch data from Google Sheet and convert to JSON")
-        json_data = fetch_gsheet_as_json(test_url)
+        print(f"Goal: Fetch data from Google Sheet for keyword '{keyword}' and convert to JSON")
+        json_data = fetch_gsheet_as_json(test_url, sheet_name=keyword)
         
         # Optionally save to file
         out_path = os.path.join("json", f"{fileNameMap[keyword]}_shop.json")
