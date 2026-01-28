@@ -10,8 +10,7 @@ fileNameMap = {
     "등산": "hiking",
 }
 
-def main():
-    keyword = "테슬라"
+def make_news_json(keyword):
     news_results = fetch_naver_news(keyword, 20)
     news_results.extend(fetch_google_news(keyword, 20))
 
@@ -31,4 +30,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    make_news_json("테슬라")

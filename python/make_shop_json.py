@@ -84,7 +84,7 @@ def fetch_gsheet_as_json(sheet_url, sheet_name=None):
     
     return data
 
-def main():
+def make_shop_json():
     # Get keyword from command line argument or use default
     if len(sys.argv) > 1:
         keyword = sys.argv[1]
@@ -121,4 +121,4 @@ def main():
         traceback.print_exc()
 
 if __name__ == "__main__":
-    main()
+    make_shop_json()

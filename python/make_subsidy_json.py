@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 import re
 import os
 import json
+import asyncio
+from playwright.async_api import async_playwright
 
 def _first_number(text):
 	# Extract the first number-like token, allowing commas.
@@ -27,8 +29,6 @@ def parse_subsidy(html_content):
         tds = tr.find_all('td')
         if len(tds) < 8:
             continue
-
-        print(tds)
 
         location_name1 = tds[0].get_text(strip=True)
         location_name2 = tds[1].get_text(strip=True)
@@ -55,24 +55,54 @@ def parse_subsidy(html_content):
 
     return subsidies
 
+async def make_subsidy_json():
+    async with async_playwright() as p:
+        # 브라우저 실행
+        browser = await p.chromium.launch(headless=True)
+        # User-Agent 설정
+        context = await browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+        )
+        page = await context.new_page()
+
+        print("전기차 보조금 페이지 접속 중...")
+        url = "https://ev.or.kr/nportal/buySupprt/initSubsidyPaymentCheckAction.do"
+        
+        try:
+            # 페이지 이동
+            await page.goto(url, wait_until="networkidle", timeout=60000)
+
+            # table01 클래스를 가진 테이블이 로드될 때까지 대기
+            print("테이블 데이터 대기 중...")
+            await page.wait_for_selector(".contentList", timeout=30000)
+
+            # 테이블 데이터 추출
+            contentList = await page.query_selector(".contentList")
+            
+           
+
+            # HTML 소스 저장 (백업용)
+            project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+            source_dir = os.path.join(project_root, "source")
+            os.makedirs(source_dir, exist_ok=True)
+            
+            file_path = os.path.join(source_dir, "ev_subsidy_source.txt")
+            table = await contentList.inner_html()
+            
+            subsidyList = parse_subsidy(table)
+
+            out_path = os.path.join("json", f"electriccar_subside.json")
+            os.makedirs(os.path.dirname(out_path), exist_ok=True)
+
+            with open(out_path, "w", encoding="utf-8") as f:
+                f.write(json.dumps(subsidyList, ensure_ascii=False, indent=2))
+
+        except Exception as e:
+            print(f"오류 발생: {e}")
+        finally:
+            await browser.close()
+
 if __name__ == "__main__":
-    # tesla/electriccar.txt 파일에서 HTML 읽기
-    # https://ev.or.kr/nportal/buySupprt/initSubsidyPaymentCheckAction.do
-    # copy(document.getElementsByClassName('table01 ')[0].outerHTML)
-    file_path = "source/electriccar.txt"
+    asyncio.run(make_subsidy_json())
     
-    if not os.path.exists(file_path):
-        print(f"오류: {file_path} 파일을 찾을 수 없습니다.")
-        sample_html = "<ul></ul>" 
-    else:
-        with open(file_path, "r", encoding="utf-8") as f:
-            sample_html = f.read()
 
-    # 상품 정보 파싱
-    subsidyList = parse_subsidy(sample_html)
-
-    out_path = os.path.join("json", f"electriccar_subside.json")
-    os.makedirs(os.path.dirname(out_path), exist_ok=True)
-
-    with open(out_path, "w", encoding="utf-8") as f:
-        f.write(json.dumps(subsidyList, ensure_ascii=False, indent=2))
