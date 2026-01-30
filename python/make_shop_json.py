@@ -105,7 +105,7 @@ def make_shop_json():
         json_data = fetch_gsheet_as_json(test_url, sheet_name=keyword)
         
         # Optionally save to file
-        out_path = os.path.join("json", f"{fileNameMap[keyword]}_shop.json")
+        out_path = os.path.join("data", f"{fileNameMap[keyword]}_shop.json")
         os.makedirs(os.path.dirname(out_path), exist_ok=True)
 
         with open(out_path, "w", encoding="utf-8") as f:
