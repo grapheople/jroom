@@ -1,0 +1,14 @@
+쿠팡 제품상세 페이지에서 상품명, 가격, 썸네일 가져오는 스크립트
+
+(() => {
+  const name = document.querySelector(".twc-items-start > div > h1 > span")?.textContent?.trim() ?? "";
+  const price = document.querySelector(".final-price-amount")?.textContent?.trim() ?? "";
+  const img = document.querySelector("div.product-image > div > div > img")?.src ?? "";
+
+  const row = [name, price, img].join("\t"); // 엑셀 3컬럼
+
+  copy(row); // ✅ 콘솔 내장 함수(대부분 크롬/엣지에서 동작)
+  console.log("복사됨:", row);
+})();
+
+
