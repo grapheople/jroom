@@ -52,6 +52,10 @@ async def main():
         # 프로젝트 루트 디렉토리로 이동
         project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
         os.chdir(project_root)
+
+        # git pull
+        subprocess.run(["git", "pull", "origin", "main"], check=True)
+        print("✓ git pull 완료")
         
         # git add
         subprocess.run(["git", "add", "json/"], check=True)
